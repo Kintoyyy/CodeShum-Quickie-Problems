@@ -49,7 +49,7 @@ function renderContent(filteredData) {
                 $.each(category.university_topics, function (i, topic) {
                     if (topic.practice_problems.length !== 0) {
                         let links = topic.practice_problems.map(function (problem) {
-                            return `<a class="btn m-1 btn-outline btn-sm" target="_blank" href="https://codechum.com/student/study-area/${problem.id}">${problem.name}</a>`;
+                            return `<a class="btn m-1 btn-outline btn-sm" target="_blank" href="https://citu.codechum.com/student/study-area/${problem.id}">${problem.name}</a>`;
                         }).join("");
 
                         accordions += `
